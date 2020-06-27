@@ -1,0 +1,120 @@
+ 
+*
+{
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box; 
+}
+body
+{
+    padding: 0; 
+    margin: 0; 
+    
+}
+h2
+{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder !important; 
+}
+.main
+{
+    width: 350px;
+    border:4px solid black;
+    border-radius: 30px;
+    margin-left: 39%;
+    margin-right: 39%;
+    padding: 10px; 
+    background: linear-gradient(to bottom, rgba(175, 183, 185, 0.335),rgba(158, 160, 160, 0.712) 70% ,rgba(210, 213, 214, 0.685)) ;
+}
+.button
+{
+    width: 70px;
+    height: 75px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border:1px solid white;
+    padding: 3px;
+    margin: 3px;
+    background: linear-gradient(to top, rgba(228, 228, 220, 0.671),rgba(71, 67, 70, 0.746),rgba(255, 255, 255, 0.671));
+    outline: none;
+    cursor: pointer;
+}
+.textview
+{
+    width:310px;
+    border-radius: 1pc;
+    margin: 5px;
+    font-size: 28px;
+    padding: 5px;
+    height: 78px; 
+    background-color: rgba(54, 54, 48, 0.678) !important;
+    color: black;
+    border:3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: space-around;
+    flex-direction: column; 
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}  
+.button:hover
+{
+    background-color: black;
+    color: white;
+    background: linear-gradient(to right, rgba(41, 40, 40, 0.835),rgba(139, 137, 137, 0.746),rgba(34, 33, 33, 0.74));
+}
+#bigger
+{
+    height:160px;
+}
+@media screen and (max-width:765px)
+{
+    .main
+    {
+    width: 270px;
+    /* border:none; */
+    border-radius: 15px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: none ;
+    padding: 5px;  
+    }
+    .button
+    {
+    width: 55px;
+    height: 62px;
+    font-size: 1rem;
+    border-radius: 10px; 
+    padding: 1px;
+    margin: 1px;  
+    }
+    .textview
+    {
+    width:240px;
+    border-radius: 1pc;
+    margin: 5px;
+    font-size: 24px;
+    padding: 3px;
+    height: 68px;   
+    border:2px solid black;
+    border-radius: 10px; 
+    padding: 10px; 
+    }  
+    #bigger
+    {
+    height:130px;
+    }
+    h5
+    {
+        font-size: 16px !important;
+        text-align: center !important; 
+    }
+    h2
+    {
+        text-align: center !important; 
+        font-size: large;
+        font-weight: bold;
+    }
+}
